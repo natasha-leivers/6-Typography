@@ -1,0 +1,64 @@
+body {}
+
+h1 {
+    font-family: "Monomaniac One", sans-serif;
+    font-size: 150px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow:
+        1px 1px 1px red,
+        2px 2px 1px red;
+    text-align: left;
+    word-spacing: 4px;
+}
+
+h2 {
+    font-family: "Supermercado One", sans-serif;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration: overline;
+    text-underline-offset: 1rem;
+    text-shadow: 4px 4px 5px red;
+    text-align: center;
+}
+
+.last {
+    font-size: 1.1rem;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.4;
+    text-shadow: none;
+    text-align: left;
+
+    flex: 1;
+    border-left: 4px solid #ffffff;
+    padding-left: 20px;
+}
+
+h3 {
+    font-family: "Jura", sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: line-through;
+    text-align: right;
+    letter-spacing: 4px;
+}
+
+
+p {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: lighter;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.bottom-row {
+    background-color: rgb(112, 0, 0);
+    color: white;
+    padding: 1em;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
